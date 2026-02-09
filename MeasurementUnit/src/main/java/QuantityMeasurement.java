@@ -1,9 +1,9 @@
-package measurement.src;
 import java.util.Scanner;
-class InputUtil {
-    public static final Scanner scanner = new Scanner(System.in);
-}
+
 public class QuantityMeasurement {
+    class InputUtil {
+        public static final Scanner scanner = new Scanner(System.in);
+    }
     public int addNumberForTestCase(int a, int b){
         return a + b;
     }
